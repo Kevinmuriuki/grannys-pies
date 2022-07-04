@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+header img ul, abbr, strike, span, a, .comment p {
+    margin: 0;
+    padding: 0;
+}
+
 h1, h2 {
     margin: 0;
     padding: 0;
@@ -28,7 +33,7 @@ h2 {
     font-weight: normal;
 }
 
-p, li{
+p, li, span{
     color: #404040;
     font-size: 11px;
     font-family: Georgia, Geramond,serif;
@@ -51,10 +56,7 @@ header, .ingridients, .directions, .comments {
     border-bottom: .12em solid #404040;
 }
 
-header img ul, abbr, strike, span, a {
-    margin: 0;
-    padding: 0;
-}
+
 
 header ul li {
     margin: 0;
@@ -71,6 +73,41 @@ header ul li {
 }
 
 .comments .comment {
-    margin: .8em auto;
+    margin: 1em auto;
+    padding: .2em;
     background-color: #FFFFA8;
+}
+
+.comment span  {
+    display: block;
+    margin-bottom: .5em;
+    font-style: italic;
+}
+
+.comment span strong {
+ margin: 0;
+}
+
+footer {
+    width: 100%
+}
+
+footer ul {
+    margin: .5em 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer div {
+    width: 23.8%;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-style: italic;
+}
+
+footer a, img {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
 }
