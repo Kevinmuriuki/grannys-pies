@@ -22,6 +22,8 @@ h1 {
 }
 
 h2 {
+    margin: .3em auto;
+    padding: .2em 0;
     font-size: 18px;
     font-weight: normal;
 }
@@ -43,7 +45,13 @@ a {
     }
 }
 
-header img ul {
+header, .ingridients, .directions, .comments {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: .12em solid #404040;
+}
+
+header img ul, abbr, strike, span, a {
     margin: 0;
     padding: 0;
 }
@@ -52,4 +60,17 @@ header ul li {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.directions p {
+    margin-top: .8em;
+}
+
+.directions span {
+    font-weight: bold;
+}
+
+.comments .comment {
+    margin: .8em auto;
+    background-color: #FFFFA8;
 }
