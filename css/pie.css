@@ -1,17 +1,26 @@
 *{
-    margin: auto .5em;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header img ul, abbr, strike, span, a, .comment p {
+body {
+    margin: auto .5em;
+    background-image: url(/assets/silverware.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+
+}
+
+header img, header ul, abbr, strike, span, a, .comment p {
     margin: 0;
     padding: 0;
 }
 
 h1, h2 {
-    margin: 0;
-    padding: 0;
+    /* width: max-content; */
     color: #A4A400;
     background-color: #f0f0f0;
     font-family: 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
@@ -19,15 +28,13 @@ h1, h2 {
 }
 
 h1 {
-    margin-bottom: 1em;
-    padding: .5em;
+    margin-bottom: .5em;   
+    padding: .5em 0;
     font-size: 24px;
-    font-weight: bold;
-    text-align: center;
 }
 
 h2 {
-    margin: .3em auto;
+    margin: .3em 0;
     padding: .2em 0;
     font-size: 18px;
     font-weight: normal;
@@ -89,21 +96,33 @@ header ul li {
 }
 
 footer {
-    width: 100%
+    width: 100%;
+    padding: 0;
 }
 
 footer ul {
-    margin: .5em 0;
+    margin: 0.5em 0;
     padding: 0;
     list-style: none;
 }
 
-footer div {
-    width: 23.8%;
+footer li {
     margin: 0;
     padding: 0;
-    text-align: right;
+}
+
+footer div{
+    margin: 0;
+    padding: 0;
     font-style: italic;
+    text-align: right;
+}
+
+footer div ul {
+    display: block;
+    width: 11.3%;
+    margin-bottom: 0.5;
+    background-color: aqua;
 }
 
 footer a, img {
