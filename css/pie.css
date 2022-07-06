@@ -5,12 +5,10 @@
 }
 
 body {
-    margin: auto .5em;
+    margin: auto 0.5em;
     background-image: url(/assets/silverware.jpg);
-    background-size: cover;
+    background-repeat: repeat(2 2);
     background-attachment: fixed;
-    background-position: center;
-    background-repeat: repeat;
 
 }
 
@@ -46,14 +44,20 @@ p, li, span{
     font-family: Georgia, Geramond,serif;
 }
 
+.ingridients ul li, .directions ul li {
+    list-style: url(/assets/pie_icon.gif);
+}
+
 a {
     color: #a4a400;
 
 }
 
 @media only screen and (min-width: 600px) {
-    *{
+    * {
         margin: auto 1.5em;
+        padding: 0;
+
     }
 }
 
@@ -73,7 +77,6 @@ header, .ingridients, .directions, .comments {
 header ul li {
     margin: 0;
     padding: 0;
-    list-style: none;
 }
 
 .directions p {
