@@ -20,9 +20,9 @@ header img, header ul, abbr, strike, span, a, .comment p {
 }
 
 h1, h2 {
-    /* width: max-content; */
+    width: max-content;
     color: #A4A400;
-    background-color: #f0f0f0;
+    background-color: #c7c7c7;
     font-family: 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
     text-decoration: underline;
 }
@@ -55,6 +55,11 @@ a {
     *{
         margin: auto 1.5em;
     }
+}
+
+header .title {
+    display: flex;
+    justify-content: center;
 }
 
 header, .ingridients, .directions, .comments {
