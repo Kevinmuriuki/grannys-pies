@@ -7,7 +7,7 @@
 body {
     margin: auto .5em;
     background-image: url(/assets/silverware.jpg);
-    background-size: cover;
+    background-size: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: repeat;
