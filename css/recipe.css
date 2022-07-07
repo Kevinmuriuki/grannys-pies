@@ -24,6 +24,7 @@ h1, h2 {
     background-color: #c7c7c7;
     font-family: 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
     text-decoration: underline;
+    letter-spacing: 0.25em;
 }
 
 h1 {
